@@ -1,5 +1,5 @@
 name: GitHub Actions Demo   #The name of the workflow(Optional)
-on: [push]
+on: push
 jobs:
   check-bats-version:   #Job-name
     runs-on: ubuntu-latest  #runner-machine
